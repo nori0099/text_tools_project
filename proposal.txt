@@ -1,0 +1,12 @@
+1. Project Topic
+AI model to predict the popularity of Korean dramas
+I’m developing an AI model that predicts the popularity of Korean dramas (K-dramas) by analyzing the text of their synopses. 
+2. Project Goal
+The goal of my project is to create a machine learning model that can predict the popularity score of K-dramas. By analyzing the language and themes in drama synopses, I aim to develop an automated tool that helps entertainment companies and streaming platforms forecast which dramas are likely to be successful. 
+3. Example of Data
+An example of the data I’ll be using would be a dataset of Top K-drama list, it has 1500 samples with titles, along with their synopses, Cast, Genre, Tags, and popularity scores. 
+4. Relevant Existing Research
+Existing research has explored factors that influence K-drama popularity, such as genre, star power, and social media trends (e.g., Choi & Kim, 2019). However, mostly they are using social media reviews and comments. So, I will do research specifically applying text-based analysis of synopses to predict popularity.
+5. Application of Text Analysis Tools (Linux)
+I plan to apply text analysis tools like NLTK and BERT on a Linux environment to process and analyze the drama synopses. Do tokenization, lemmatization, and stop-word removal to clean the data and preprocess the text. And then train the data by using BERT to capture the meaning behind the synopses and predict popularity scores based on the textual features
+
